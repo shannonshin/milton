@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Milton</title>
+
+	<!--favicon-->
+	<link rel="shortcut icon" href="/images/favicon/favicon.ico">
+
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="css/default.css?ver=1" />
+	<link rel="stylesheet" type="text/css" href="css/include.css?ver=1" />
+	<link rel="stylesheet" type="text/css" href="css/main.css?ver=1" />
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
+	<!--js-->
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/js/slick.min.js"></script>
+
+</head>
+
+<body>
+	<!--header-->
+	<header>
+		<div class="header_wrap">
+			<div class="logo">
+				<img src="images/logo.png" alt="로고이미지">
+			</div>
+			<div class="search">
+				<input type="text">
+				<img src="images/ico_search.png" alt="검색">
+			</div>
+			<div class="allmenu" onclick="toggleMenu()">
+				<button type="button" class="menu_btn"></button>
+			</div>
+		</div>
+	</header>
+	<!--nav-->
+	<nav>
+		<div class="gnb_wrap">
+			<button class="close"></button>
+			<ul>
+				<li>
+					<a href="">About Us</a>
+				</li>
+				<li>
+					<a href="">Products</a>
+				</li>
+				<li>
+					<a href="">Professionals & Press</a>
+				</li>
+				<li>
+					<a href="">FAQs</a>
+				</li>
+				<li>
+					<a href="">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			function toggleMenu(){
+				let navigation = document.querySelector('.gnb_wrap');
+				navigation.classList.toggle('active');
+			}			
+		</script>
+	</nav>
+
+	<!--section-->
+	<section>
+		<div class="content_wrap">
+			<!--메인배너-->
+			<div class="main_banner_wrap">
+				<div class="main_banner">
+					<div class="">
+						<img src="images/main_banner.jpg" alt="메인배너이미지1">
+						<div class="main_txt">
+							<h3 class="blue">
+								Discover Milton's promises and move<br>
+								towards greener products!
+							</h3>
+							<p>Plant-based formulas and better packaging</p>
+						</div>
+					</div>
+					<div class="">
+						<img src="images/main_banner.jpg" alt="메인배너이미지1">
+						<div class="main_txt">
+							<h3 class="blue">
+								Discover Milton's promises and move<br>
+								towards greener products!
+							</h3>
+							<p>Plant-based formulas and better packaging</p>
+						</div>
+					</div>
+					<div class="">
+						<img src="images/main_banner.jpg" alt="메인배너이미지1">
+						<div class="main_txt">
+							<h3 class="blue">
+								Discover Milton's promises and move<br>
+								towards greener products!
+							</h3>
+							<p>Plant-based formulas and better packaging</p>
+						</div>
+					</div>
+				</div>
+			</div><!--//메인배너-->
+			<!--70주년배너-->
+			<div class="event_banner">
+				<h2>#70years</h2>
+				<p>
+					Protecting what's precious<br>
+					for over 70 years!
+				</p>
+			</div><!--//70주년배너-->
+			<!--products-->
+			<div class="main_product">
+				<h3 class="section_title">Products <span></span></h3>
+				<ul class="center_mode">
+					<li>
+						<div class="img_box">
+							<img src="/images/product01.png" alt="제품사진">
+						</div>
+						<div class="txt_box">
+							<p class="product_name">Sterilising Fluid</p>
+							<p class="desc">500ml and 1L</p>
+						</div>
+					</li>
+					<li>
+						<div class="img_box">
+							<img src="/images/product02.png" alt="제품사진">
+						</div>
+						<div class="txt_box">
+							<p class="product_name">Sterilising Fluid</p>
+							<p class="desc">500ml and 1L</p>
+						</div>
+					</li>
+					<li>
+						<div class="img_box">
+							<img src="/images/product03.png" alt="제품사진">
+						</div>
+						<div class="txt_box">
+							<p class="product_name">Sterilising Fluid</p>
+							<p class="desc">500ml and 1L</p>
+						</div>
+					</li>
+				</ul>
+			</div><!--//products-->
+			<!--introduce-->
+			<div class="introduce">
+				<h3 class="section_title">About Us</h3>
+				<div class="cont">
+					<h4>Innovating<br>for the future</h4>
+					<p>
+						Milton has more recently launched
+						the Mini Portable Soother Steriliser,
+						a totally unique and original
+						method to clean and sterilise soothers on the go.
+					</p>
+				</div>
+				<div class="img">
+					<img src="images/aboutUs_img.png">
+				</div>
+				<button class="more_btn">
+					more <img src="images/btn_round_arr.png">
+				</button>
+			</div><!--//introduce-->	
+			<!--slogan-->
+			<div class="slogan">
+				EVERYONE CAN KEEP ON LIVING
+				<strong>THE HAPPY LIFE THEY WANT</strong>
+			</div><!--//slogan-->
+			<!--csBox-->
+			<div class="csBox">
+				<div class="box promises">
+					<img src="images/ico_promises.png">
+					<p>Promises</p>		
+				</div>
+				<div class="box health">
+					<img src="images/ico_health.png">
+					<p>Healthcare</p>	
+				</div>
+				<div class="box faqs">
+					<img src="images/ico_faqs.png">
+					<p>FAQs</p>			
+				</div>
+				<div class="box uses">
+					<img src="images/ico_uses.png">
+					<p>100 Uses of Milton</p>
+				</div>
+			</div><!--//csBox-->
+		</div>
+	</section>
+
+	<!--quick-->
+	<a id="MOVE_TOP_BTN" href="#" class="quick">
+		<img src="images/top.png">
+		TOP
+	</a>
+	<script>
+		$(function() {
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 500) {
+					$('#MOVE_TOP_BTN').fadeIn();
+				} else {
+					$('#MOVE_TOP_BTN').fadeOut();
+				}
+			});
+			
+			$("#MOVE_TOP_BTN").click(function() {
+				$('html, body').animate({
+					scrollTop : 0
+				}, 400);
+				return false;
+			});
+		});
+	</script>
+
+	<!--footer-->
+	<footer>
+		<div class="f_sns">
+			<a href=""><img src="images/sns_fb.png"></a>
+			<a href=""><img src="images/sns_twt.png"></a>
+			<a href=""><img src="images/sns_ytub.png"></a>
+			<a href=""><img src="images/sns_vimeo.png"></a>
+		</div>
+		<div class="f_info">
+			<a href="">Contact Us</a>
+			<a href="">Where to buy</a>
+			<a href="">Terms & Conditions</a>
+		</div>
+		<div class="f_info">
+			<a href="">Privacy Policy</a>
+			<a href="">Cookie Policy</a>
+			<a href="">Press Office</a>
+		</div>
+		<div class="copy">
+			Copyright 2021. milton all rights reserved.
+		</div>
+	</footer>
+</body>
+</html>
+
+<script>
+	$(document).ready(function(){
+		$('.close').click(function(){
+			$('.gnb_wrap').removeClass('active');
+			$('.gnb_wrap').hide();				
+		})
+
+		//slick
+		$('.main_banner').slick({
+			dots:true,
+			arrows:false,
+		});		
+	})
+</script>
